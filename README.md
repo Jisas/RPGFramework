@@ -25,10 +25,10 @@ You can also add the following line to your `manifest.json`:
 ### Option 2: UnityPackage
 Download and drag the `.unitypackage` to your project.
 
-### Documentation
+## Documentation
 
 Check the `Documentation~/` folder for tutorials and examples.
 
-### Support
+## Support
 
 Questions? Contact us or open an issue in our repository.
