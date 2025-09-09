@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "com.jisas.rpgframeork": "https://github.com/Jisas/RPGFramework.git#v1.0.0"
+  }
+}
