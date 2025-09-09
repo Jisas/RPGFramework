@@ -4,7 +4,7 @@ A modular system for creating and managing races, classes, and attributes in RPG
 
 ## Installation
 
-Option 1: Unity Package Manager (recommended)
+Unity Package Manager
 Open Unity Package Manager, select “Install package from git URL...”
 and paste the following URL:
 ```json
@@ -20,10 +20,6 @@ You can also add the following line to your `manifest.json`:
 ```json
 "com.jisas.rpgframeork": "https://github.com/Jisas/RPGFramework.git#v1.0.0"
 ```
-
-
-### Option 2: UnityPackage
-Download and drag the `.unitypackage` to your project.
 
 ## Documentation
 
