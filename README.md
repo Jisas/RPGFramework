@@ -7,7 +7,7 @@ Un sistema modular para la creacion y gestion de razas, clases y atributos en ju
 ### Opcion 1: Unity Package Manager (recomendado)
 Agrega la siguiente linea a tu `manifest.json`:
 ```json
-"com.jc.rpgframework": "file:../ruta/a/Packages/com.oziris.rpgframework"
+"com.jisas.rpgframeork": "https://github.com/Jisas/RPGFramework.git#v1.0.0"
 ```
 O sube el paquete a un repositorio git y usa la URL.
 
