@@ -9,7 +9,7 @@ Agrega la siguiente linea a tu `manifest.json`:
 ```json
 "com.jisas.rpgframeork": "https://github.com/Jisas/RPGFramework.git#v1.0.0"
 ```
-O sube el paquete a un repositorio git y usa la URL.
+
 
 ### Opcion 2: UnityPackage
 Descarga y arrastra el `.unitypackage` a tu proyecto.
