@@ -5,13 +5,13 @@ A modular system for creating and managing races, classes, and attributes in RPG
 ## Installation
 
 Open Unity Package Manager, select: `Install package from git URL...` and paste the following URL:
-```json
-"https://github.com/Jisas/RPGFramework.git"
+```url
+https://github.com/Jisas/RPGFramework.git
 ```
 
 If you want to install a specific version, you can add, for example, “#v1.0.0” at the end of the URL:
 ```json
-"https://github.com/Jisas/RPGFramework.git#v1.0.0"
+https://github.com/Jisas/RPGFramework.git#v1.0.0
 ```
 
 You can also add the following line to your `manifest.json`:
