@@ -1,34 +1,34 @@
 # RPG Framework
 
-Un sistema modular para la creacion y gestion de razas, clases y atributos en juegos RPG, totalmente personalizable y listo para usar con UI Toolkit.
+A modular system for creating and managing races, classes, and attributes in RPG games, fully customizable and ready to use with UI Toolkit.
 
-## Instalacion
+## Installation
 
-### Opcion 1: Unity Package Manager (recomendado)
-Abre el Adminitrados de paquetes de Unity, selecciona "Install package from git URL..."
-y pega el siguente URL:
+Option 1: Unity Package Manager (recommended)
+Open Unity Package Manager, select “Install package from git URL...”
+and paste the following URL:
 ```json
 "https://github.com/Jisas/RPGFramework.git"
 ```
 
-Si quieres instalar una version especifica puedes agregar por ejemplo: "#v1.0.0" al final de la url:
+If you want to install a specific version, you can add, for example, “#v1.0.0” at the end of the URL:
 ```json
 "https://github.com/Jisas/RPGFramework.git#v1.0.0"
 ```
 
-Tambien puedes agregar la siguiente linea a tu `manifest.json`:
+You can also add the following line to your `manifest.json`:
 ```json
 "com.jisas.rpgframeork": "https://github.com/Jisas/RPGFramework.git#v1.0.0"
 ```
 
 
-### Opcion 2: UnityPackage
-Descarga y arrastra el `.unitypackage` a tu proyecto.
+### Option 2: UnityPackage
+Download and drag the `.unitypackage` to your project.
 
-## Documentacion
+### Documentation
 
-Consulta la carpeta `Documentation~/` para tutoriales y ejemplos.
+Check the `Documentation~/` folder for tutorials and examples.
 
-## Soporte
+### Support
 
-Dudas? Contoctanos o abre un issue en nuestro repositorio.
+Questions? Contact us or open an issue in our repository.
