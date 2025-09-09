@@ -5,7 +5,18 @@ Un sistema modular para la creacion y gestion de razas, clases y atributos en ju
 ## Instalacion
 
 ### Opcion 1: Unity Package Manager (recomendado)
-Agrega la siguiente linea a tu `manifest.json`:
+Abre el Adminitrados de paquetes de Unity, selecciona "Install package from git URL..."
+y pega el siguente URL:
+```json
+"https://github.com/Jisas/RPGFramework.git"
+```
+
+Si quieres instalar una version especifica puedes agregar por ejemplo: "#v1.0.0" al final de la url:
+```json
+"https://github.com/Jisas/RPGFramework.git#v1.0.0"
+```
+
+Tambien puedes agregar la siguiente linea a tu `manifest.json`:
 ```json
 "com.jisas.rpgframeork": "https://github.com/Jisas/RPGFramework.git#v1.0.0"
 ```
