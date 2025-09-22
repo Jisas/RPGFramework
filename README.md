@@ -17,5 +17,3 @@ Check the `Documentation~/` folder for tutorials and examples.
 ## Support
 
 Questions? Contact us or open an issue in our repository.
-
-Translated with DeepL.com (free version)
