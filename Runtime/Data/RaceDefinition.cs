@@ -6,14 +6,16 @@ namespace RPGFramework.Data
     [CreateAssetMenu(fileName = "RaceDefinition", menuName = "RPG Framework/Race Definition")]
     public class RaceDefinition : ScriptableObject
     {
-        [Header("Datos Básicos")]
+        [Header("General")]
         public string raceName;
         [TextArea] public string description;
         public Sprite icon;
 
+        [Header("Herencias permitidas")]
+        public List<SubRaceDefinition> availableSubRaces;
+        public List<ClassDefinition> availableClasses;
+
         [Header("Habilidades Raciales")]
-        public List<AbilityDefinition> racialAbilities = new();     // Habilidades raciales
-        public List<SubRaceDefinition> availableSubRaces;           // Sub razas permitidas
-        public List<ClassDefinition> availableClasses;              // Clases permitidas
+        public List<AbilityDefinition> racialAbilities = new();
     }
 }

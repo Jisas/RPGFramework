@@ -58,13 +58,12 @@ public class CharacterDataTest : MonoBehaviour
         Debug.Log($"SunRaza: {character.SubRace.subRaceName}");
         Debug.Log($"Clase: {character.ClassDef.className}");
         Debug.Log($"Subclase: {character.SubClass?.subClassName ?? "(ninguna)"}");
-        Debug.Log("Atributos:");
 
+        Debug.Log("-- Atributos --");
         foreach (var attr in character.Attributes)
             Debug.Log($"{attr.Key.attributeName}: {attr.Value}");
 
-        Debug.Log("Habilidades raciales:");
-
+        Debug.Log("-- Habilidades raciales --");
         foreach (var ability in character.RacialAbilities)
             Debug.Log(ability.abilityName);
     }

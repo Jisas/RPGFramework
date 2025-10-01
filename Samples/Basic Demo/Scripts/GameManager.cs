@@ -23,7 +23,6 @@ public class GameManager : MonoBehaviour
     public void SetPlayerCharacter(RPGCharacterModel character)
     {
         PlayerCharacter = character;
-        Debug.Log($"[GameManager] Personaje asignado: {character.Race.raceName}, {character.SubRace.subRaceName}, {character.ClassDef.className}, {character.SubClass.subClassName}");
     }
 
     /// <summary>
@@ -105,7 +104,7 @@ public class GameManager : MonoBehaviour
     /// <param name="allAttributes">
     ///     Array con todas las definiciones de atributos posibles (AttributeDefinition) disponibles en el juego.
     /// </param>
-    public void LoadCharacterPreset(string resourcePath, RPGFramework.Data.AttributeDefinition[] allAttributes)
+    public void LoadPlayerFromPreset(string resourcePath, RPGFramework.Data.AttributeDefinition[] allAttributes)
     {
         CharacterPreset preset = Resources.Load<CharacterPreset>(resourcePath);
 

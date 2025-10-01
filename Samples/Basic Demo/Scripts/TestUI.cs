@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Linq;
 using TMPro;
+using UnityEngine.UI;
 
 public class TestUI : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class TestUI : MonoBehaviour
     public TMP_Dropdown subRaceDropdown;
     public TMP_Dropdown classDropdown;
     public TMP_Dropdown subClassDropdown;
+    public Button confimButton;
 
     void Start()
     {
@@ -24,6 +26,7 @@ public class TestUI : MonoBehaviour
         subRaceDropdown.onValueChanged.AddListener(OnSubRaceChanged);
         classDropdown.onValueChanged.AddListener(OnClassChanged);
         subClassDropdown.onValueChanged.AddListener(OnSubClassChanged);
+        confimButton.onClick.AddListener(creatorLogic.OnConfirmCharacterCreation);
 
         // Inicializa el personaje
         creatorLogic.NewCharacter();
@@ -40,6 +43,7 @@ public class TestUI : MonoBehaviour
     void OnDisable()
     {
         creatorLogic.OnCharacterChanged -= UpdateDropdownSelections;
+        confimButton.onClick.RemoveListener(creatorLogic.OnConfirmCharacterCreation);
     }
 
     void FillRaceDropdown()

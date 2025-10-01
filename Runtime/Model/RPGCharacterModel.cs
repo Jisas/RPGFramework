@@ -25,8 +25,7 @@ namespace RPGFramework.Model
             ClassDefinition classDef,
             SubClassDefinition subClass,
             List<AttributeDefinition> allAttributes,
-            Dictionary<AttributeDefinition, float> classAttributeInitialValues
-        )
+            Dictionary<AttributeDefinition, float> classAttributeInitialValues)
         {
             this.ClassDef = classDef;
             this.SubClass = subClass;

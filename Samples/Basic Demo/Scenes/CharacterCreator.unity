@@ -5208,19 +5208,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1795418506}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 606409169}
-        m_TargetAssemblyTypeName: CharacterCreatorLogic, RPGFramework.Samples
-        m_MethodName: OnConfirmCharacterCreation
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1795418506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5595,6 +5583,7 @@ MonoBehaviour:
   subRaceDropdown: {fileID: 1385683147}
   classDropdown: {fileID: 1208647193}
   subClassDropdown: {fileID: 659301972}
+  confimButton: {fileID: 1795418505}
 --- !u!1 &1920812853
 GameObject:
   m_ObjectHideFlags: 0

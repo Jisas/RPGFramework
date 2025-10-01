@@ -10,10 +10,7 @@ namespace RPGFramework.Data
         public Sprite icon;
 
         [Header("Damage")]
-        public float baseDamage;
+        public float damage;
         public DamageTypeDefinition damageType;
-
-        [Header("Adicional effects")]
-        public List<EffectDefinition> hitEffects = new List<EffectDefinition>();
     }
 }

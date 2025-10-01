@@ -1,6 +1,6 @@
 {
     "name": "RPGFramework.Runtime",
-    "rootNamespace": "",
+    "rootNamespace": "RPGFramework",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

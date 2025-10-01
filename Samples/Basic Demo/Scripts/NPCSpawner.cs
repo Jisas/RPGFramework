@@ -44,8 +44,7 @@ public class NPCSpawner : MonoBehaviour
         {
             if (attr?.attribute == null) continue;
             var attrDef = attributesList.Find(a => a == attr.attribute || a.name == attr.attribute.name);
-            if (attrDef != null)
-                attrValues[attrDef] = attr.value;
+            if (attrDef != null) attrValues[attrDef] = attr.value;
         }
 
         npcModel = new RPGCharacterModel(
